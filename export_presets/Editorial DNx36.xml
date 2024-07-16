@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<preset version="11">
+    <type>movie</type>
+    <comment>Creates editorial check files from VFX shot masters</comment>
+    <movie>
+        <fileType>QuickTime</fileType>
+        <namePattern>dnx36/&lt;name&gt;</namePattern>
+        <yuvHeadroom>0</yuvHeadroom>
+        <yuvColourSpace>PCS_UNKNOWN</yuvColourSpace>
+        <colorSyncCompat>False</colorSyncCompat>
+    </movie>
+    <video>
+        <fileType>QuickTime</fileType>
+        <codec>55648256</codec>
+        <codecProfile></codecProfile>
+        <namePattern>dnx36/&lt;name&gt;</namePattern>
+        <includeAlpha>False</includeAlpha>
+        <overwriteWithVersions>False</overwriteWithVersions>
+        <resize>
+            <resizeType>fit</resizeType>
+            <resizeFilter>lanczos</resizeFilter>
+            <width>1920</width>
+            <height>1080</height>
+            <bitsPerChannel>8</bitsPerChannel>
+            <numChannels>3</numChannels>
+            <floatingPoint>False</floatingPoint>
+            <bigEndian>True</bigEndian>
+            <pixelRatio>1</pixelRatio>
+            <scanFormat>P</scanFormat>
+        </resize>
+    </video>
+    <name>
+        <framePadding>8</framePadding>
+        <startFrame>1</startFrame>
+        <frameIndex>0</frameIndex>
+    </name>
+</preset>
